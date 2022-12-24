@@ -1,0 +1,93 @@
+nav {
+    position: relative;
+}
+.n-items {
+    display: none;
+}
+.menu:focus .n-items {
+    display: block;
+    position: absolute;
+    background-color: #181818;
+    color: #fff;
+    top: 65%;
+    right: 8%;
+}
+
+.toggle {
+    display: block;
+    cursor: pointer;
+   margin-top: 25px;
+}
+
+#intro {
+    flex-direction: column;
+    padding-bottom: 6%;
+}
+.i-typo {
+    text-align: center;
+}
+.i-profile-image {
+    width: 420px;
+  
+  
+}
+.i-profile-image > img {
+  
+    width: 420px;
+  
+}
+#skills {
+    height: 127vh;
+    padding-bottom: 6%;
+}
+.s-item {
+    margin-top: 5px;
+}
+.s-bg {
+    height: 127vh;
+    width: 60%;
+}
+.s-i-t-one {
+   padding-top: 25%;
+  
+}
+.s-i-t-item {
+    width: 200px;
+    
+}
+.f-container {
+   
+    justify-content: space-center;
+}
+#featured {
+    margin: 0 6%;
+}
+
+.i-f-h-l {
+    width: 60%;
+}
+.i-f-h {
+    width: 80%;
+}
+
+
+#contact {
+   flex-direction: column;
+   margin-top: 10px;
+
+  
+}
+
+.c-body {
+    padding-bottom: 10px;
+}
+.f-one ul li {
+    padding-left: 8px;
+}
+
+.f-two {
+    justify-content: space-around;
+}
+.f-two ul {
+    padding-left: 20px;
+}

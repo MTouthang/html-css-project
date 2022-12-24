@@ -1,0 +1,101 @@
+.h-logo {
+    display: flex;
+}
+.h-logo img:nth-child(2){
+    display: block;
+    width: 10px;
+    padding-left: 5px;
+}
+.h-logo > img {
+    width: 80px;
+}
+.toggle  {
+    cursor: pointer;
+    width: 10px;
+    padding-right: 5px;
+}
+.h-items {
+    display: flex;
+}
+.menu-items {
+    display: none;
+}
+
+.h-items:focus .menu-items {
+    display: block;
+    position: absolute;
+    border: 1px solid;
+    background-color: #636C79;
+    top: 8%;
+    padding: 5px 10px;
+}
+#intro {
+    flex-direction: column;
+    justify-content: center;
+}
+.i-left {
+    width: 420px;
+}
+.i-right h1 {
+    padding-top: 10px;
+    font-size: 3.3rem;
+}
+.i-right-input img{
+    padding-top: 8px;
+    width: 20px;   
+}
+.s-c-item {
+    border: 1px solid #eee;
+    margin-left: 5px;
+    border-radius: 8px;
+}
+.s-c-item > h2 {
+    font-size: 1.5rem;
+}
+
+#testimonial-section {
+   padding: 0;
+  
+}
+#testimonial-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 4px;
+    padding-bottom: 40px;
+}
+.t-s {
+    flex-direction: column-reverse;
+}
+.t-s-img {
+    width: 445px;
+    height: 425px;
+}
+.t-s-img > img {
+    width: 645px;
+}
+.two .t-s-typo {
+   width: 100%;
+    
+}
+.t-one h3 {
+    font-size: 2rem;
+    text-align: start;
+    padding-top: 15px;
+}
+t-members {
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30%;
+    margin-right: 15%;
+}
+t-img-c {
+    width: 100%;
+    overflow: visible;
+}
+figure {
+    margin-left: 40px;
+}
+.res-pad {
+    padding-top: 18px;
+}

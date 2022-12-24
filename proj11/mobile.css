@@ -1,0 +1,169 @@
+/** mobile responsive ***/
+.h-logo {
+    display: flex;
+}
+.h-logo > img {
+    width: 80px;
+}
+.h-items img {
+    width: 15px;
+}
+.toggle {
+    padding-right: 10px;
+    display: block;
+    cursor: pointer;
+}
+.sub-menu {
+    display: none;
+}
+.h-items:focus .sub-menu {
+    background-color: #32485350;
+    display: block;
+    position: absolute;
+    top: 45px;
+    padding: 0 10px;
+}
+ 
+.h-items > button {
+    padding: 6px 15px;
+    background-color: transparent;
+    border-radius: 6px;
+    margin-bottom: 5px;
+}
+
+/*** landing page***/
+.landing-page {
+    flex-direction: column-reverse;
+}
+.m-left {
+ width: 100%;
+}
+.m-left > h1 {
+   
+    font-size: 2.3rem;
+    padding-bottom: 3%; 
+}
+.m-left > p {
+   
+    line-height: 20px;
+    padding-bottom: 5%;
+}
+.m-left > button {
+    width: 35%;
+    padding: 10px 15px;
+    margin-bottom: 3%;
+}
+.m-right > img {
+    width: 420px;
+    margin: auto;  
+}
+.second-part{
+    padding: 0;
+    width: 87%;
+}
+.s-left > img {
+    width: 420px;
+}
+.s-right {
+    padding: 0;
+}
+.s-right >  h1 {
+    font-size: 2rem;
+    margin-bottom: -25px;
+}
+.s-right > p {
+    line-height: 20px;
+    margin-bottom: -30px;
+}
+.s-right > button {
+    width: 35%;
+    padding: 10px 15px;
+    margin-bottom: 3%;
+}
+
+.part-three {
+    padding: 0;
+    
+}
+.t-right > img {
+    width: 420px;
+    
+}
+.t-left {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.t-left > h1 {
+    font-size: 2rem;
+    padding-bottom: 3%;
+}
+.t-left > p {
+    line-height: 20px;
+    padding-bottom: 6%;
+}
+.t-left > button {
+    padding: 10px 15px;
+}
+#service {
+    margin-top: 6%;
+}
+.s-i-left > h1 {
+    font-size: 2rem;
+    padding-top: 10%;
+}
+.s-i-right > p {    
+    padding-top: 10px;
+}
+.service-body-item {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 2px;
+}
+/** pricing section **/
+.pricing-boxs {
+    
+    justify-content:space-evenly;
+    
+
+}
+#pricing-section > h1{
+    font-size: 2.4rem;
+}
+
+
+.pricing-box {
+    width: 45%;
+    margin: 0;
+    margin-top: 3px;
+}
+.p-active {
+    height: 20%;
+}
+.p-active > h3 {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.p-active > p {
+    padding-left: 20px;
+    margin-bottom: 10%;
+}
+.p-desc {
+    margin-top: 78%;
+}
+.sub-price > p {
+    text-align: center;
+}
+
+
+.r-button > button {
+    margin-top: 100%;
+}
+footer {
+    flex-wrap: wrap;
+    justify-content:space-between
+}
+
+.f1-logo > img {
+    width: 80px;
+}

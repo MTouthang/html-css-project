@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    height: 100vh;
+    background-image: url(./pexels-rfstudio-3819572.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #F5F2F0;
+}
+
+.props {
+    display: none;
+}
+
+/**** image size ***/
+.quote {
+    width: 30px;
+}
+.dance {
+    width: 315px;
+  
+}
+.m-social img {
+    width: 20px;
+}
+
+/**** Heading *************/
+nav {
+    padding: 2% 6% 1% 6%;
+    display: flex;
+    justify-content: space-between;
+}
+nav img {
+    width: 100px;
+    padding-right: 27%;
+}
+nav ul {
+    position: relative;
+    display: flex;
+    list-style-type: none;
+  
+    justify-content: space-evenly;
+}
+.toggle {
+    width: 20px;
+    display: none;
+}
+
+
+.nav-item {
+    color: #ADACAB;
+    padding: 0 25px 10px 20px;
+}
+li.active {
+    color: #000;
+}
+.h-dash {
+   margin-top: 10px;
+   height: 1px;
+   width: 27%;
+   border-bottom: 2px solid;     
+}
+
+/***** main heading ******/
+main {
+    margin: 0% 6% 0 40% ;
+}
+
+.m-heading {
+    display: flex;
+    justify-content: space-between;
+}
+.m-h-one {
+    font-size: 4.5rem;
+    font-weight: bold;
+    line-height:100px;
+}
+
+h1 {
+     color: transparent;
+    -webkit-text-stroke: 1px black;
+}
+
+h1 span {
+    padding-left: 30%;
+    color: #000;
+}
+.m-heading-two {
+
+    display: flex;
+    justify-content: space-between;
+    padding-right: 18%;
+    
+}
+.m-heading-two p {
+    font-size: 2rem;
+    color: #ADACAB;
+    margin-top: 68%;
+    margin-right: 60%;
+  
+}
+.m-social {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 20px 10px 20px;
+}
+.m-social img {
+    padding-bottom: 35px;
+}
+button {
+    padding: 15px 25px;
+    background-color: #333333;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 72%;
+    border: none;
+}
+
+/******* m-typo section *****/
+.m-typo {
+    display: flex;
+    justify-content: space-evenly;
+}
+.m-typo-right {
+    padding-right:15%;
+
+}
+
+.arrow {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.a-tail {
+    position: absolute;
+    width: 1px;
+    height: 120px;
+    margin-left: 50px;
+    margin-top: 6%;
+    background-color: #000;
+    top: 80px;
+    
+}
+.a-head img{
+    width: 40px;
+    margin-top: 180px;
+    margin-left: 30px;
+
+}
+
+.m-typo-right  ul li{
+    padding: 15px;
+    font-size: 1.5rem;
+    width: 100%;
+    color: #ADACAB;
+}
+.m-typo-right ul li.active-li {
+   font-weight: bold;
+   color: #000;
+}
+.m-typo-left h2 {
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+}
+
+.line {
+    height: 279px;
+    background-color: #ADACAB;
+    width: 1px;
+    margin-right: 5px;
+    margin-top: 25px;
+}

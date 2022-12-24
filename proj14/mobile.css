@@ -1,0 +1,109 @@
+body {
+    background-image: none;
+    background-position: 0;
+}
+main {
+    margin: 0;
+}
+header {
+    padding-top: 5%;
+    padding-bottom: 8%;
+}
+.props {
+    display: block;
+    height: 80vh;
+    width: 145%;
+    overflow: hidden;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2% 6%;
+    padding: 0;
+    
+}
+nav img{
+    width: 90px;
+    padding: 0;
+}
+.toggle {
+    display: block;
+    cursor: pointer;
+}
+.h-dash{
+    display: none;
+}
+.nav-items {
+    display: none;
+    padding: 10px 10px;
+    background-color: #fff;
+}
+.menu:focus .nav-items {
+    display: block;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+.props {
+    width: 88%;
+    height: 100%;
+    margin: 0 6%;
+}
+
+.props > img {
+    width: 350px;
+    margin-left: 13%;
+    padding-bottom: 6%;
+}
+.m-h-one {
+    font-size: 4rem;
+    width: 30%;
+    
+}
+.m-h-one > h1 {
+    line-height: 90px;
+}
+h1 span {
+    padding-left: 50%;
+    color: #000;
+}
+.m-heading {
+  
+    justify-content: start;
+    margin-left: 5%;
+    margin-right: 8%;
+    width: 45%;
+}
+.m-heading-two p {
+    padding-top: 20%;
+    margin-top: 90%;
+    margin-left: 43%;
+}
+
+button {
+    margin-left: 60%;
+    border: none;
+}
+.m-typo {
+    margin: 0 10%;
+    position: relative;
+    flex-direction: column-reverse;
+    padding-left: 5%;
+}
+.arrow {
+    position: absolute;
+    top: 10%;
+    right: 6%;
+} 
+.line {
+    position: absolute;
+    top: 50%;
+    left: 27%;
+}
+.m-typo-right ul li{
+   margin-left: 30%;
+   width: 50%;
+}
+.m-social {
+    padding: 0;
+}
